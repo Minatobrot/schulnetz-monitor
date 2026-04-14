@@ -1,0 +1,8 @@
+# Real credentials – never commit this
+.env
+
+# Dependencies – no need to share these
+node_modules/
+
+# Runtime data – local only
+data/

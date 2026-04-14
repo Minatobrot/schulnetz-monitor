@@ -1,0 +1,9 @@
+services:
+  scraper:
+    build: .
+    container_name: schulnetz-monitor
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
